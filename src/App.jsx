@@ -9,6 +9,7 @@ import Counter from "./ComposantCours/ClassComponentLifeCycle/Counter";
 import ListManager from "./ComposantCours/ClassComponentLifeCycle/ListManager";
 import ColorBox from "./ComposantCours/ClassComponentLifeCycle/ColorBox";
 import TodoList from "./ComposantCours/ClassComponentLifeCycle/TodoList";
+import Events from "./components/Events";
 
 function App() {
   /* const [count, setCount] = useState(0)
@@ -39,7 +40,7 @@ const [{color,background}, setColor] = useState({color:"red",background:"white"}
       <p>la couleur {color} et le background {background}</p>
       <input onChange={(e)=>setColor(current => ({...current,color:e.target.value}))}/>
     </>
-  );*/
+  );
   return (
     <>
       <Counter />
@@ -69,6 +70,11 @@ const [{color,background}, setColor] = useState({color:"red",background:"white"}
         ]}
       />
     </>
+  );*/
+  return (
+    <div className="container mt-4">
+      <Events />
+    </div>
   );
 }
 

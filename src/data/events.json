@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Festival international de Carthage",
+    "description": "Un grand festival de musique et d'art.",
+    "img": "event1.jpg",
+    "price": 30,
+    "nbTickets": 10,
+    "nbParticipants": 5,
+    "liked": false
+  },
+  {
+    "id": 2,
+    "name": "Festival de la médina de Tunis",
+    "description": "Un événement culturel unique.",
+    "img": "event2.jpg",
+    "price": 15,
+    "nbTickets": 4,
+    "nbParticipants": 30,
+    "liked": false
+  },
+  {
+    "id": 3,
+    "name": "Journées cinématographiques de Carthage (JCC)",
+    "description": "Un événement culturel unique.",
+    "img": "event3.jpg",
+    "price": 7,
+    "nbTickets": 20,
+    "nbParticipants": 30,
+    "liked": false
+  }
+]
